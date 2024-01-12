@@ -97,39 +97,38 @@ function plusFn(){
     const value3 = Number(num3.value);  
     total.innerText = value1 + value2 + value3;
 
-    total.innerText = Number(value1) + Number(value2) + Number(value3);
-
+    
 }
 
 function minusFn(){
-    const value1 = Number(number1.value);  
-    const value2 = Number(number2.value);
-    const value3 = Number(number3.value);  
+    const value1 = Number(num1.value);  
+    const value2 = Number(num2.value);
+    const value3 = Number(num3.value);  
     total.innerText = value1 - value2 - value3;
 
 }
 
 function multiFn(){
-    const value1 = Number(number1.value);  
-    const value2 = Number(number2.value); 
-    const value3 = Number(number3.value); 
-    total.innerText = value1 * value2 / value3;
+    const value1 = Number(num1.value);  
+    const value2 = Number(num2.value);
+    const value3 = Number(num3.value); 
+    total.innerText = Number(value1) * Number(value2) * Number(value3);
 
 }
 
 function divFn(){
-    const value1 = Number(number1.value);  
-    const value2 = Number(number2.value); 
-    const value3 = Number(number3.value); 
-    total.innerText = value1 / value2 / value3;
+    const value1 = Number(num1.value);  
+    const value2 = Number(num2.value);
+    const value3 = Number(num3.value); 
+    total.innerText = Number(value1) / Number(value2) / Number(value3);
 
 }
 
 function modFn(){
-    const value1 = Number(number1.value);  
-    const value2 = Number(number2.value);  
-    const value3 = Number(number3.value);
-    total.innerText = value1 % value2 % value3;
+    const value1 = Number(num1.value);  
+    const value2 = Number(num2.value);
+    const value3 = Number(num3.value); 
+    total.innerText = Number(value1) % Number(value2) % Number(value3);
 
     
 }
