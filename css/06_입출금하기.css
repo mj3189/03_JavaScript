@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box1, .box2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
